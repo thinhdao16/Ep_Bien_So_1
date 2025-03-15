@@ -1,0 +1,86 @@
+body { min-width: 100% !important; overflow-x: hidden !important; }
+@media (max-width:1024px) {
+  .contact-input { margin-bottom: 15px; }
+  .flex-cus, .row-video, .row-20 { margin-left: -5px; margin-right: -5px; }
+  .mg-cus, .mg-video, .col-20 { padding-left: 5px; padding-right: 5px; }
+  .content-text img { height: auto !important; }
+  .padding-top-bottom { padding: 2rem 0; }
+  .pad-top { padding-top: 2rem; }
+  .pad-bottom { padding-bottom: 2rem; }
+  .mg-top { margin-top: 2rem; }
+  .mg-bottom { margin-bottom: 2rem; }
+  .title-detail-main { font-size: 20px; }
+  .cart-fixed { bottom: 220px; }
+  .btn-frame { display: none; }
+  .cart-pro-detail { width: 100%; margin-top: 10px; }
+  .pad-bottom { padding-bottom: 2rem !important; }
+  .pad-top { padding-top: 2rem !important; }
+  .padding-top-bottom { padding: 2rem 0 !important; }
+  .hotline-head, .banner-head, .menu { display: none; }
+  .menu-res { display: block; }
+  .product-tool { opacity: 1; visibility: visible; position: initial; }
+  .sp-l,.head .head-top, .product-tool a span { display: none; }
+  .head .head-bottom .wrap-content { justify-content: center !important; }
+  .logo-head img { width: 100px; }
+  .ft-doi-tac{bottom: 230px;}
+  .sp-r{width: 100%;}
+  .mm-listitem a{text-transform: capitalize;}
+}
+@media (max-width:992px) {
+  .iframe-tiktok blockquote{max-width: 100% !important;}
+  .top-cart { margin-bottom: 2rem; }
+  .othernews { position: initial; }
+  .footer-title:after { width: 100%; }
+  #fanpage-facebook { overflow: hidden; margin: auto; }
+  .footer-news:nth-child(4) ,.dk-r{ width: 100%; }
+  .footer-news:nth-child(3),.dk-l { width: 100%; margin-bottom: 20px; }
+  .footer-news:nth-child(2) { width: 100%; margin: 20px 0; }
+  .footer-news:nth-child(1) { width: 100%; }
+  .time-news { display: none; }
+  .copyright, .statistic { width: 100%; text-align: center; }
+  .footer-ul li { width: calc(100%); }
+  .footer-ul { display: flex; flex-flow: row wrap; justify-content: space-between; }
+  .comment-item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+  .comment-item-poster { width: auto; margin-right: 0px; margin-bottom: 0.5rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+  .comment-item-letter { width: 40px; height: 40px; line-height: 40px; font-size: 13px; margin-bottom: 0; }
+  .comment-item-name { margin-bottom: 0px; margin-left: 10px; margin-right: 10px; }
+  .comment-item-information { width: 100%; }
+}
+@media (max-width:768px) {
+  .title-main span, .title-main h2{font-size: 30px !important;}
+  .title-main p{font-size: 15px;}
+  .quantity-procart { text-align: right; }
+  .price-procart { display: none; }
+  .price-procart-rp { display: block; }
+  .item-video1 img { height: 250px; }
+  .right-intro { width: 100%; }
+  .left-intro { width: 100%; margin-bottom: 20px; padding-right: 0; }
+  .left-pro-detail, .right-pro-detail { width: 100%; margin: 0px; }
+  .left-pro-detail, .top-contact .article-contact { margin-bottom: 30px; }
+  .pic-news { width: 40%; }
+  .info-news { width: 60%; padding-left: 10px; }
+  .name-news { font-size: 15px; }
+  .desc-news.text-split { -webkit-line-clamp: 2; }
+  .procart-label .quantity-procart p:first-child { display: block; }
+  .procart-label .quantity-procart p:first-child { display: none; }
+  .procart-label .quantity-procart p:last-child { display: none; }
+  .procart-label .quantity-procart p:last-child { display: block; }
+  .box-qc{width: 100%;}
+}
+@media (max-width:576px) {
+  .info-phuchoi{margin-top: 10px;}
+  .info-phuchoi h3{font-size: 15px;}
+  .title-dk h2,.title-main span, .title-main h2{font-size: 27px !important;}
+  .dang-ky,.title-main h2{padding: 0;}
+  .title-main h2:after,.title-main h2:before{display: none;}
+  .title-dk p,.info-phuchoi p,.title-main p,.name-procart a { font-size: 13px; }
+  .toast-cus { left: 5px; width: calc(100% - 10px); }
+  .box-readmore { width: calc(100% - 5px); }
+  .newsletter-input,.newshome-scroll { width: 100%; }
+  .newshome-intro { width: 100%; margin-bottom: 20px; }
+  .top-contact .form-contact .button-contact .file-contact span b { max-width: 105px; }
+  .cart-pro-detail { flex-wrap: wrap; }
+  .cart-pro-detail a { width: 100%; text-align: center; margin: 0px !important; }
+  .cart-pro-detail a:first-child { margin-bottom: 5px !important; }
+  .procart-label { font-size: 13px; }
+}
