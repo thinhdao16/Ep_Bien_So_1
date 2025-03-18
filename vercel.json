@@ -1,9 +1,15 @@
 {
-    "rewrites": [
-      {
-        "source": "/:slug",
-        "destination": "/:slug.html"
-      }
-    ]
-  }
-  
+  "redirects": [
+    {
+      "source": "/:slug.html",
+      "destination": "/:slug",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:slug",
+      "destination": "/:slug.html"
+    }
+  ]
+}
