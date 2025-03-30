@@ -16,13 +16,15 @@ function updateViewPageCount() {
     
     // Tìm vị trí xuất hiện ".html" trong filename
     const htmlIndex = filename.indexOf('.html');
+    let key;
     if (htmlIndex === -1) {
-        console.log('Filename không chứa ".html"');
-        return;
+      // Nếu không tìm thấy ".html", sử dụng toàn bộ filename làm key
+      console.log('Filename không chứa ".html", sử dụng toàn bộ filename làm key');
+      key = filename;
+    } else {
+      // Nếu tìm thấy ".html", cắt phần key trước ".html"
+      key = filename.slice(0, htmlIndex);
     }
-    
-    // Lấy key từ filename: cắt hết từ ".html" trở đi (ví dụ: "trang-chu" trong "trang-chu.html0456")
-    const key = filename.slice(0, htmlIndex);
     
     // Gửi key lên server để cập nhật view (server sẽ tự xử lý việc tăng số view)
     fetch('https://sv-ep-bien-so.vercel.app/api/update_view', {
